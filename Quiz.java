@@ -21,19 +21,16 @@ class student {
     public int getID() {
         return ID;
     }
-
     public String getName() {
         return Name;
     }
-
     public int getAdmissionYear() {
         return admissionYear;
     }
-
     public double getGPA() {
         return GPA;
     }
-
+    
     public void showDetails() {
         System.out.println("ID : " + this.ID);
         System.out.println("Name : " + this.Name);
